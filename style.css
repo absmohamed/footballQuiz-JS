@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+:root{
+    box-shadow: rgb(rgb(55, 50, 45)) 0px 3px 8px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.quizSection{
+    background-color: rgb(100, 164, 179);
+    padding: 30px;
+}
+
+.heading{
+    margin: 10px auto 40px auto;
+}
+
+.heading .title{
+    font-size: 30px;
+    color: rgb(216, 191, 217);
+    font-weight: 300;
+    text-align: center;
+}
+
+.heading .subtitle{
+    font-size: 20px;
+    color: rgb(216, 191, 217);
+    font-weight: 200;
+    text-align: center;
+}
+
+.result {
+    text-align: center;
+    min-width: 350px;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 5px;
+    background-color: rgb(132, 216, 145);
+    box-shadow: var(--box-shadow);
+}
+
+.result p:first-child{
+    padding: 10px 20px;
+}
+
+.reload button{
+    color: rgba(rgb(83, 88, 90));
+    padding: 10px 20px;
+    border-radius: 0px 0px 5px  5px;
+    width: 100%;
+    border: 0px;
+}
+
+
+.reload button:hover{
+    background-color: rgb(35, 67, 53);
+    color: wheat;
+    cursor: pointer;
+}
+
+.hide{
+    display: none;
+}
+
+.quiz-form{
+    max-width: 1000px;
+    margin: auto;
+}
+.question{
+    background-color: antiquewhite;
+    padding: 10px 20px;
+
+    border-radius: 5px;
+    margin: 20px 0px;
+    box-shadow: var(--box-shadow);
+}
+
+.question > * {
+    font-size: 18px;
+}
+
+
+.option {
+    margin-left: 10px;
+}
+
+.correct{
+    background-color: rgb(39, 128, 42);
+}
+
+.wrong{
+
+    background-color: rgb(185, 76, 76);
+}
+.submit{
+    text-align: center;
+    margin: 30px 0px;
+}
+
+.submit input {
+    background-color:  rgb(71, 71, 147);
+    padding: 5px 25px;
+    color:lightyellow;
+    font-size: 22px;
+    border-radius: 5px;
+    box-shadow: var(--box-shadow);
+    border: 0px;
+}
+.submit input:hover{
+    background-color: rgb(28, 48, 59);
+    cursor: pointer;
+}

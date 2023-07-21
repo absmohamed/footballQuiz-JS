@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz Application to Test JavaScript</title>
+    <link
+      rel="shortcut icon"
+      href="./images/football.jpeg"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <section class="quizSection">
+        <div class="heading">
+          <p class="title">Football Quiz</p>
+          <p class="subtitle">Daily Quiz to test your knowledge</p>
+        </div>
+
+        <div class="result hide">
+          <p>You scored 5/5 !!! Great Work</p>
+          <p class="reload">
+            <button onclick="document.location.reload(true)">Try Again</button>
+          </p>
+        </div>
+
+        <form class="quiz-form">
+          <div class="question">
+            <p>1. Which team won the 2018 world cup?</p>
+            <div class="option">
+              <input type="radio" name="q1" value="A" checked />
+              <label for="">France</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="B" />
+              <label for="">Brazil</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="C" />
+              <label for="">England</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q1" value="D" />
+              <label for="">Portugal</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              2. From 2007 to 2022, what Premier League player won the Ballon
+              d'Or?
+            </p>
+            <div class="option">
+              <input type="radio" name="q2" value="A" checked />
+              <label for="">Thierry Henry</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="B" />
+              <label for="">Cristiano Ronaldo</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="C" />
+              <label for="">Didier Drogba</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q2" value="D" />
+              <label for="">Robin Van Persie</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>3. Who scored a hattrick in the 2022 World Cup final?</p>
+            <div class="option">
+              <input type="radio" name="q3" value="A" checked />
+              <label for="">Lionel Messi</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="B" />
+              <label for="">Di Maria</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="C" />
+              <label for="">Kylian Mbappe</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q3" value="D" />
+              <label for="">Vinicius JR</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>4. Who won the 2019 Uefa Champions League</p>
+            <div class="option">
+              <input type="radio" name="q4" value="A" checked />
+              <label for="">Man City</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="B" />
+              <label for="">Real Madrid</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="C" />
+              <label for="">Bayern Munich</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q4" value="D" />
+              <label for="">Liverpool FC</label>
+            </div>
+          </div>
+
+          <div class="question">
+            <p>
+              5. Who was the highest goal scorer in the 22/23 Premier League
+              season
+            </p>
+            <div class="option">
+              <input type="radio" name="q5" value="A" checked />
+              <label for="">Erling Haaland</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="B" />
+              <label for="">Mo Salah</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="C" />
+              <label for="">Marcus Rashford</label>
+            </div>
+            <div class="option">
+              <input type="radio" name="q5" value="D" />
+              <label for="">Cristiano Ronaldo</label>
+            </div>
+          </div>
+          <div class="submit">
+            <input type="submit" value="Submit" />
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <script src="index.js"></script>
+  </body>
+</html>
